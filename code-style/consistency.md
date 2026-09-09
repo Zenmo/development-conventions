@@ -1,0 +1,1 @@
+Keep conventions the same within a file even if they conflict with the code style.
