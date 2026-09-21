@@ -34,6 +34,19 @@ The title has a soft limit at 50 characters.
 
 There is no line limit for the body. You may choose to break text at 72 characters for readability.
 
+Content
+---
+
+Commit messages should be at a conceptual level. If there are multiple references to the symbols in the code, it's probably too detailed.
+
+Bad:
+
+> Use JSON.parse and fs.read to recreate ScenarioState.
+
+Good:
+
+> Loads a scenario from disk.
+
 Exemptions
 ---
 
