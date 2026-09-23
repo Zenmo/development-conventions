@@ -37,11 +37,13 @@ There is no line limit for the body. You may choose to break text at 72 characte
 Content
 ---
 
+Use simple language. Assume that the reader has only surface-level knowledge of the feature you're working on.
+
 Commit messages should be at a conceptual level. If there are multiple references to the symbols in the code, it's probably too detailed.
 
 Bad:
 
-> Use JSON.parse and fs.read to recreate ScenarioState.
+> Uses JSON.parse and fs.read to recreate ScenarioState.
 
 Good:
 
